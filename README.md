@@ -383,6 +383,8 @@ scripts/
   config_snippet.py             DataConfig + TrainConfig for openpi
   gen3_policy_client.py         closed-loop deployment
   log_trial.py                  evaluation logging
+notebooks/
+  colab_train_and_serve.ipynb   Colab: install, train, serve, tunnel
 docs/
   policy.md                     architecture and full parameter reference
   setup.md                      step-by-step reproduction
