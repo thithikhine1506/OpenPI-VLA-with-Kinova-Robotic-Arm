@@ -1,0 +1,9 @@
+# Python 3.9 environment (Kortex pins protobuf 3.5.1, which needs <=3.9)
+# kortex_api installed separately from Kinova's Artifactory:
+#   pip install https://artifactory.kinovaapps.com/artifactory/generic-public/kortex/API/2.6.0/kortex_api-2.6.0.post3-py3-none-any.whl
+numpy==1.26.4          # openpi-client requires <2.0
+opencv-python==4.11.0.86   # 5.x requires numpy>=2; 4.11 is what recorded the data
+h5py
+pyrealsense2
+typing_extensions
+# openpi-client: pip install -e /path/to/openpi/packages/openpi-client

@@ -1,0 +1,20 @@
+# data
+episodes/
+*.hdf5
+*.mp4
+*.png
+eval_log.csv
+
+# checkpoints
+checkpoints/
+assets/
+*.tar.gz
+
+# local config
+padmap.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
